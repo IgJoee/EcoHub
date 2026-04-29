@@ -37,6 +37,41 @@ body {
     left: 25px;
 }
 
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 700px;
+    background: #6b6b6b;
+    border-radius: 15px;
+    padding: 20px;
+
+    display: none;
+
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+/* mostrar ao passar o mouse */
+.tipos:hover .mega-menu {
+    display: grid;
+}
+
+/* itens */
+.mega-menu a {
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 .container {
     display: flex;
@@ -82,37 +117,44 @@ body {
 
 
 
-@media (max-width: 1080px) {
+
+
+
+@media (max-width: 1100px) {
     .navbar ul {
-        gap: 20px;
+        gap: 25px;
     }
 
     .navbar ul li a {
-        font-size: 20px;
-        text-decoration: underline 2px solid white;
-        text-underline-offset: 15px;
+        font-size: 42px;
+        text-decoration: underline 7px solid white;
+        text-underline-offset: 18px;
     }
 
     .navbar img {
-        height: 30px;
+        height: 60px;
         position: absolute;
-        left: 25px;
+        left: 10px;
+    }
+
+    .container {
+        padding: 0 30px 0 30px;
     }
 
     .title {
 
         gap: 100px;
-        font-size: 30px;
+        font-size: 40px;
 
     }
 
     .title img {
-        height: 100px;
+        height: 120px;
         transform: rotateZ(22deg);
     }
 
     .text {
-        font-size: 25px;
+        font-size: 35px;
     }
 
 }
