@@ -39,11 +39,10 @@ body {
 
 .mega-menu {
     position: absolute;
-    top: 100%;
     left: 50%;
     transform: translateX(-50%);
     
-    width: 700px;
+    width: 500px;
     background: #6b6b6b;
     border-radius: 15px;
     padding: 20px;
@@ -57,17 +56,20 @@ body {
 /* mostrar ao passar o mouse */
 .tipos:hover .mega-menu {
     display: grid;
+    
 }
 
 /* itens */
-.mega-menu a {
+.navbar .mega-menu a {
+    text-decoration: none;
     color: white;
-    font-size: 18px;
-    padding: 5px;
+    font-size: 20px;
     text-align: center;
 }
-
-
+.navbar .mega-menu a:hover{
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    transform: scale(1.10);
+}
 
 
 
@@ -111,6 +113,9 @@ body {
     font-family: "Actor";
     text-align: center;
 }
+
+
+
 
 
 
