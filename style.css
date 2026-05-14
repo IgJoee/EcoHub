@@ -114,6 +114,23 @@ body {
     text-align: center;
 }
 
+.tabela_cartas img{
+    height: 150px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin-bottom: -4px;
+}
+.tabela_cartas td{
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.tabela_cartas{
+    border-collapse: separate;
+    border-spacing: 10px 10px; 
+}
+
 
 
 
