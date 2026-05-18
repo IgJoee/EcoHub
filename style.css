@@ -38,7 +38,7 @@ body {
 }
 
 .mega-menu {
-    position:absolute;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
 
@@ -114,6 +114,20 @@ body {
     font-size: 25px;
     font-family: "Actor";
     text-align: center;
+}
+
+.image img {
+    width: 70%;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 14px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
 }
 
 .tabela_cartas {
@@ -193,6 +207,7 @@ body {
 
 
 
+
 @media (max-width: 1100px) {
     .navbar ul {
         gap: 25px;
@@ -230,6 +245,16 @@ body {
         font-size: 40px;
     }
 
+    .image img {
+        border: 5px solid;
+        border-radius: 12px;
+    }
+
+    .image {
+        margin-bottom: 8px;
+
+    }
+
     .mega-menu {
 
         width: 700px;
@@ -238,6 +263,7 @@ body {
         padding: 8px;
         gap: 10px;
     }
+
     .navbar .mega-menu a {
         font-size: 30px;
     }
@@ -322,6 +348,15 @@ body {
     .text {
         font-size: 19px;
     }
+    .image img {
+        border: 3px solid;
+        border-radius: 10px;
+    }
+
+    .image {
+        margin-bottom: 5px;
+
+    }
 
 
     .mega-menu {
@@ -332,6 +367,7 @@ body {
         padding: 5px;
         gap: 5px;
     }
+
     .navbar .mega-menu a {
         font-size: 13px;
     }
@@ -426,6 +462,16 @@ body {
         font-size: 15px;
     }
 
+    .image img {
+        border: 3px solid;
+        border-radius: 8px;
+    }
+
+    .image {
+        margin-bottom: 5px;
+
+    }
+
 
     .mega-menu {
 
@@ -435,6 +481,7 @@ body {
         padding: 5px;
         gap: 3px;
     }
+
     .navbar .mega-menu a {
         font-size: 10px;
     }
